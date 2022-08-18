@@ -67,4 +67,17 @@ public class Cuenta {
             System.out.println("Retiro Exitoso de: "+monto);
             this.saldoActual -= monto;}
     }
+
+    //Metodo toString
+
+
+    @Override
+    public String toString() {
+        return "Cuenta{" +
+                "numero='" + numero + '\'' +
+                ", tipo='" + tipo + '\'' +
+                ", saldoActual=" + saldoActual +
+                ", saldoMinimo=" + saldoMinimo +
+                '}';
+    }
 }

@@ -6,6 +6,9 @@ public class Main {
         System.out.println(cuentaJaider.getSaldoActual());
         cuentaJaider.retirar(280);
         System.out.println(cuentaJaider.getSaldoActual());
+        System.out.println(cuentaJaider.getNumero());
+
+        System.out.println(cuentaJaider.toString());
 
 
     }
